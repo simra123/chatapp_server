@@ -5,7 +5,7 @@ live chat app using socket.io
 https://github.com/simra123/chat_app_frontend
 
 # Structure
-src > scss > all custom scss files
+src > scss > all custom scss files <br>
 src > useContext > all global State
 src > views > reuseble > all components blocks
 src > views > chat > main chat page
