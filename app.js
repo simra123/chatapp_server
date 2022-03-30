@@ -1,6 +1,8 @@
 //express
 const express = require('express')
 const app = express()
+//route
+const router = require('./router')
 //to allow access
 const cors = require('cors')
 //library
@@ -19,6 +21,8 @@ const io = new Server(http, {
 //allow access
 app.use(cors())
 
+//get /
+app.use(router)
 
 //port
 const port = process.env.port || 4000
