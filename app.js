@@ -19,9 +19,6 @@ const io = new Server(http, {
 //allow access
 app.use(cors())
 
-app.get('/', (req, res) => {
-    res.send('the app is up and running')
-})
 
 //port
 const port = process.env.port || 4000
