@@ -25,7 +25,7 @@ app.use(cors())
 app.use(router)
 
 //port
-const port = process.env.port || 4000
+const port = process.env.PORT || 4000
 
 //socket connection
 io.on('connection', (socket) => {
