@@ -4,9 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node index.js",
-    "build" : "npm run build"
-  },
+    "start": "npm install && node index"
+    },
   "author": "Simra Azam",
   "license": "ISC",
   "dependencies": {
