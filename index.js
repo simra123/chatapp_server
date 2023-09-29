@@ -12,12 +12,7 @@ const http = require('http').createServer(app)
 //get frontend url
 require('dotenv').config()
 //create socket server
-const io = new Server(http, {
-    cors: {
-        origin: process.env.FRONTEND_URL,
-        methods: ["GET", "POST"],
-    },
-});
+const io = new Server(http);
 //allow access
 app.use(cors())
 
